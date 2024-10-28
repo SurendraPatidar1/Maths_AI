@@ -125,6 +125,8 @@ button {
     padding: 20px 0;
     text-align: center;
     margin-top: auto;
+    position: relative;
+    bottom: 0;
 }
 
 .footer .container {
@@ -158,4 +160,12 @@ button {
     .footer p {
         font-size: 0.8rem;
     }
+}
+/* Icons Container Styling */
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
 }
